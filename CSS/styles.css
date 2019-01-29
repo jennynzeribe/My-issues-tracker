@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+background-color: black;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.473)), url(../images/analog-binder-blank-236111.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #120;
+    width: 40%;
+    color: wheat;
+  }
+  
+  .right {
+    right: 0;
+    background-color: aliceblue;
+    width: 60%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered a{
+    text-decoration: none;
+    /* color: wheat; */
+  }
+  
+  /* .centered img {
+    width: 150px;
+    border-radius: 50%;
+  } */
+  /* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    background:#d0ecee;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    } */
+  .container-main{
+    /* background: #bdc3c7; */
+    /* box-shadow: 3px 3px rgba(0, 0, 0, 0.2); */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  /* header{
+    background-color: #000;
+    padding:5px;
+    height: 50px;
+    overflow: hidden;
+    line-height: 40px;
+  }
+  header h1{
+    color: #3498db;
+    font-size: 20px;
+  }
+  header a{
+    text-decoration: none;
+  }
+  .cs{
+    color:#d0ecee;
+    font-size:12px;
+    font-weight: lighter;
+  } */
+  .container {
+  margin: 20px;
+  padding: 16px;
+  text-align: center;
+   /* font-size: 15px;  */
+  }
+  /* .form-class{
+   
+  } */
+  input[type=text], input[type=password], #business{
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, #business{
+    background-color: #ddd;
+    outline: none;
+    /* width: 60%; */
+  }
+  #business{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: #34495e;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+  
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  a {
+    color: dodgerblue;
+  }
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+    
+  }
+  
+  .move{
+    margin-right: 36px;
+  }
+  .move1{
+      margin-right: 8px;
+  }
+  #move{
+    margin-right: 30px;
+  }
+  .main-content{
+    height: 100vh;
+  }
+  aside{
+    width:220px;
+    background: #f5f6fa;  
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 35px;
+  }
+  aside a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px; 
+    font-weight: bold;
+  }
+  .section{
+   background: #d0ecee;    
+  color: #000;
+  height: 100%;
+  font-size: 20px;
+   width: 65%; 
+  float: left;
+  padding: 40px
+  }
+  ul{
+  list-style: none;
+  color: #616060;    
+  }
+  .list-menu{
+    padding: 9px; 
+    font-size: 15px; 
+  }
+  .list-main{
+    text-align: left;
+  }
+  .right-section{
+    background: #fff;    
+  color: #000;
+  height: 100%;
+  font-size: 20px;
+  float: right;
+  padding: 40px;
+  }
+  .section-item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px; 
+    font-weight: bold;
+  }
+  footer{
+    text-align: right;
+  }

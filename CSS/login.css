@@ -1,0 +1,49 @@
+body{
+    background: #b3b2af;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 27px;
+}
+section a{
+    text-decoration: none;
+    color: pink;
+    float: left;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.container{
+    background-color: #259e25;
+    width: 300px;
+    height: 200px;
+    border: 1px solid green;
+    padding: 15px;
+    margin: 15px; 
+}
+.container p{
+    color: white;
+     font-size: 20px;
+}
+h2{
+font-size:60px; 
+margin-bottom: 0px; 
+margin-top: 10px;
+}
+.log{
+    font-size: 20px;
+    color: pink;
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+    color: pink;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#left{
+    margin-left: 160px;
+}
