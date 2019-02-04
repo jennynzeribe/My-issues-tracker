@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow:hidden; 
 }
 body{
    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url(../images/analog-binder-blank-236111.jpg);
@@ -31,4 +32,13 @@ nav a{
 }
 nav a:hover{
     color: red;
+}
+footer{
+    background: rgba(0, 0, 0, 0.137);
+    position: relative;
+    top: 10px;
+    left: 0px;
+    padding: 40px;
+     text-align: right;
+     color: aliceblue;
 }

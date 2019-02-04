@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: pink;
+    /* background-color: pink; */
     font-family: 'Montserrat', sans-serif;
 }
 header{
@@ -36,7 +36,8 @@ color: white;
   
   .right {
     right: 0;
-    background-color: aliceblue;
+    background:linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.473)), url(../images/adult-application-asian-733856.jpg);
+    background-size: cover;
     width: 60%;
   }
   
@@ -94,10 +95,12 @@ color: white;
     font-weight: lighter;
   } */
   .container {
+    background: rgba(0, 0, 0, 0.473);
   margin: 20px;
   padding: 16px;
   text-align: center;
-   /* font-size: 15px;  */
+  color: white;
+   font-size: 15px; 
   }
   /* .form-class{
    
