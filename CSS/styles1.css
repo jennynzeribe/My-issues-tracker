@@ -44,7 +44,11 @@ nav a:hover{
     margin: -75px 0 0 -75px;
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #3498db94;
+    /* border-top: 16px solid blue; */
+    border-right: 16px solid rgba(0, 128, 0, 0.295);
+    border-bottom: 16px solid rgba(255, 0, 0, 0.322);
+    border-left: 16px solid rgba(255, 192, 203, 0.199);
     width: 120px;
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
